@@ -1,0 +1,100 @@
+#wrapper {
+    width: 900px;
+    margin: 5px auto;
+   /*  outline: 1px solid black; */
+}
+  #header {
+      height: 200px;
+     /*  outline: 1px solid black; */
+      position: relative;
+      background-image: url(depositphotos_25712781-stock-photo-surfing-on-bali.jpg);
+      
+} 
+
+
+/* #logo {
+    /*height: 40px;
+    width: 40px;*/
+
+   /*  position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+ /* #logo img {
+    height: 200px;
+    width: 900px; 
+} */
+
+#header h1 {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    /* text-align: center; */
+    /* float: right; */
+}
+
+#header p {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#left {
+      width: 200px;
+      float:left;
+      height: 500px;
+      padding: 10px; 
+} 
+#left p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+#left img {
+    width: 200px;
+    height: 80px;
+}
+  
+#content {
+      min-height: 500px;
+      width: 650px;
+      float: left;
+      padding: 10px;
+      
+}
+#content p {
+    font-size: 16px;
+    text-align: justify;
+} 
+#content img {
+    width: 650px;
+}
+
+  
+.clearfix {
+      clear: both;
+}
+  
+#footer {
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    
+
+    position: relative;
+}
+#footer div {
+    position: absolute;
+    left: 45%;
+    font-size: 12px;
+} 
+
+
+#header, #content, #footer,   {
+      outline: 1px solid black;
+}
+}
+}
